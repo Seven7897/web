@@ -1,0 +1,156 @@
+body {
+  background-color: #40ffdc;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  font-style: italic;
+}
+li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+a:link {
+  color: #071f2b;
+}
+
+a:visited {
+  color: #320d41;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #687eff;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #50f106;
+}
+
+a:active {
+  background: #265301;
+  color: #cdfeaa;
+}
+p {
+  text-align: center;
+  color: rgb(58, 58, 204);
+  font-size: 30px;
+  font-style: italic;
+  font-family: cursive;
+}
+.contact {
+  color: #423434;
+  font-size: 30px;
+}
+.divInput {
+  background-color: rgba(0, 255, 234, 0.178);
+  color: rgb(68, 0, 253);
+  font-size: 14px;
+  font-family: cursive;
+  font-style: italic;
+  height: 20px;
+  width: 30%;
+}
+.divInput2 {
+  text-transform: capitalize;
+  background-color: #2dcec0;
+  color: black;
+  font-size: 18px;
+  font-style: italic;
+  font-family: cursive;
+}
+.radaVam {
+  width: 380px;
+}
+.opisanie {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+  background-color: #eaeaea;
+}
+.podOpisanie {
+  color: #707070;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  font-style: italic;
+}
+.button {
+  color: rgb(218, 253, 18);
+  font-size: 20px;
+  background-color: #2dcec0;
+  margin-left: 10px;
+}
+
+.vvod {
+  color: #cd59d8;
+  font-size: 25px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+td {
+  font-size: 30px;
+  font-style: italic;
+  font-family: cursive;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.header {
+  width: 200px;
+  display: block;
+  margin: 10px;
+  border: 5px solid #4c3770;
+  float: left;
+}
+img.header:hover {
+  border: 5px solid transparent;
+}
+.portret {
+  width: 600px;
+  height: 700px;
+  display: block;
+  margin: auto;
+}
+.parag:first-letter {
+  text-transform: lowercase;
+  color: red;
+  font-size: 40px;
+}
+button:hover {
+  background-color: rebeccapurple;
+  color: #14a5ee;
+}
+button:active {
+  background-color: red;
+}
+.container {
+  background-color: #b698eb;
+  width: 1500px;
+  margin: auto;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.kvartir {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.h222 {
+  height: 30px;
+  font-family: cursive;
+  font-style: italic;
+}
+.myFoto {
+  width: 750px;
+  height: 800px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
