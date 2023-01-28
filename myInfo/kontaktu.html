@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <img class="header" src=".././/images/logo.png" alt="logotip" />
+
+      <h1><a href="../index.html">Главная</a></h1>
+      <hr />
+      <h2><a href="../uslugi/uslugi.html">Услуги</a></h2>
+      <h3 class="contact">Напишите нам</h3>
+      <form action="kontaktu.html" method="get">
+        <ul>
+          <li>
+            <label class="vvod" for="clientName">Ваше имя</label><br />
+            <input
+              class="divInput"
+              name="imya"
+              id="clientName"
+              type="text"
+              placeholder="Андрей , Виктория , Людмила"
+            />
+            <br />
+          </li>
+          <li>
+            <label class="vvod" for="clientPhone">Ваш телефон</label><br />
+            <input
+              class="divInput"
+              type="number"
+              name="phone"
+              id="clientPhone"
+              placeholder="+79674533952"
+            /><br />
+          </li>
+          <li>
+            <label class="vvod" for="clientEmail">Ваша почта</label><br />
+            <input
+              class="divInput"
+              type="text"
+              name="@mail"
+              id="clientEmail"
+              placeholder="2342dfgh@mail.com"
+            /><br />
+          </li>
+          <li>
+            <label class="vvod" for="clientProsba">Тема</label><br />
+            <textarea
+              class="divInput2"
+              name="prosba"
+              id="clientProsba"
+              cols="50"
+              rows="10"
+            ></textarea>
+          </li>
+        </ul>
+        <button class="button">Отправить</button>
+      </form>
+      <h2>Мои контакты</h2>
+      <ul>
+        <li><h4>+7 9677655962</h4></li>
+        <li><h4>Irihd@mail.ru</h4></li>
+        <li><h4>г.Чебоксары Тракторостроителей 22</h4></li>
+      </ul>
+      <h2>Ирина , я буду очень рада вам помочь.</h2>
+    </div>
+  </body>
+</html>
