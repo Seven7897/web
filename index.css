@@ -13,7 +13,16 @@ a {
 }
 li {
   list-style-type: none;
-  margin-top: 10px;
+}
+li.mainLink {
+  list-style-type: none;
+  float: left;
+  margin-right: 15px;
+}
+.header::after {
+  content: "";
+  clear: both;
+  display: block;
 }
 a:link {
   color: #071f2b;
@@ -48,6 +57,7 @@ p {
   color: #423434;
   font-size: 30px;
 }
+
 .divInput {
   background-color: rgba(0, 255, 234, 0.178);
   color: rgb(68, 0, 253);
@@ -102,10 +112,10 @@ td {
   border: 3px solid rgb(0, 0, 0);
 }
 
-.header {
+img.header {
   width: 200px;
   display: block;
-  margin: 10px;
+  margin: 10px 50px 10px 20px;
   border: 5px solid #4c3770;
   float: left;
 }
